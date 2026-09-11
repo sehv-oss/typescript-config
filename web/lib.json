@@ -1,0 +1,8 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "_comment": "Browser library. Type checking only: a web library always goes through a bundler for tree shaking, multiple output formats and bundled declarations.",
+  "extends": "./base.json",
+  "compilerOptions": {
+    "noEmit": true
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "_comment": "Node.js application. Type checking only: run the sources directly with `node src/index.ts` using native type stripping. Requires Node.js 24.12 or newer.",
+  "extends": "./base.json",
+  "compilerOptions": {
+    "noEmit": true
+  }
+}

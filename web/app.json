@@ -1,0 +1,8 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "_comment": "Browser application. Type checking only: the bundler (Vite, Next.js) produces the output.",
+  "extends": "./base.json",
+  "compilerOptions": {
+    "noEmit": true
+  }
+}

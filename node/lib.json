@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "_comment": "Node.js library. The only preset where tsc produces the published artifact: no bundler involved. Set rootDir and outDir in your own tsconfig.json: relative paths in a shared config resolve against the file that declares them, so this preset cannot set them for you.",
+  "extends": "./base.json",
+  "compilerOptions": {
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true
+  }
+}

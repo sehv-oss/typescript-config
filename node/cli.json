@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "_comment": "Node.js command line executable. Emits JavaScript because a published CLI cannot rely on type stripping being available on the machine that installs it. No declarations: nobody imports the types of an executable. Set rootDir and outDir in your own tsconfig.json: relative paths in a shared config resolve against the file that declares them.",
+  "extends": "./base.json",
+  "compilerOptions": {
+    "declaration": false,
+    "sourceMap": true
+  }
+}
