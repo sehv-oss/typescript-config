@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "_comment": "Browser environment layer. module preserve implies moduleResolution bundler. Keep lib in sync with the TypeScript default target when it moves to a new year.",
+  "extends": "../base.json",
+  "compilerOptions": {
+    "module": "preserve",
+    "lib": ["es2025", "dom", "dom.iterable"]
+  }
+}

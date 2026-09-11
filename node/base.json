@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "_comment": "Node.js environment layer. No lib: it is inferred from the default target. No moduleResolution: it is implied by module nodenext.",
+  "extends": "../base.json",
+  "compilerOptions": {
+    "module": "nodenext",
+    "types": ["node"]
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "_comment": "React layer. Combine with web/app or web/lib, which already provide the DOM libraries: \"extends\": [\"@sehv-oss/typescript-config/web/app\", \"@sehv-oss/typescript-config/layer/react\"]",
+  "compilerOptions": {
+    "jsx": "react-jsx"
+  }
+}

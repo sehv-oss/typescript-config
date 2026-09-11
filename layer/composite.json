@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "_comment": "Project references layer, for monorepos built with `tsc --build`. Combine with an emitting preset such as node/lib.",
+  "compilerOptions": {
+    "composite": true,
+    "incremental": true,
+    "declaration": true,
+    "declarationMap": true
+  }
+}
