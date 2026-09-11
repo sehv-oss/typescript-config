@@ -1,6 +1,6 @@
 {
   "name": "@sehv-oss/typescript-config",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Shared TypeScript configurations for Node.js/web libraries and applications",
   "type": "module",
   "exports": {
